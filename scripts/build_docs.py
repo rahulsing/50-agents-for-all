@@ -19,28 +19,28 @@ REPO = "https://github.com/rahulsing/50-agents-for-all"
 BLOB = f"{REPO}/blob/main"
 
 FRAMEWORKS = {  # folder -> (title, one-paragraph introduction)
-    "agno": ("Agno", "Agno builds an agent from a model, tools and instructions, with batteries included: memory "
+    "01_agno": ("Agno", "Agno builds an agent from a model, tools and instructions, with batteries included: memory "
                      "and sessions (SQLite), knowledge bases (vector DBs), structured output and guardrails. "
                      "Plain Python functions become tools automatically."),
-    "langgraph": ("LangGraph", "LangGraph models an agent as a graph: nodes are steps (functions or LLM calls), "
+    "02_langgraph": ("LangGraph", "LangGraph models an agent as a graph: nodes are steps (functions or LLM calls), "
                                "edges are decisions, and all nodes share a typed state. Loops, retries, "
                                "human approval and multi-agent hierarchies are all just graph shapes."),
-    "crewai": ("CrewAI", "CrewAI describes a crew of role-played agents (role, goal, backstory) that work through "
+    "03_crewai": ("CrewAI", "CrewAI describes a crew of role-played agents (role, goal, backstory) that work through "
                          "tasks, sequentially or under a manager. Flows add event-driven control with "
                          "@start, @listen and @router."),
-    "autogen": ("AutoGen", "AutoGen (0.7) builds agents that talk to each other in teams: round-robin, "
+    "04_autogen": ("AutoGen", "AutoGen (0.7) builds agents that talk to each other in teams: round-robin, "
                            "LLM-selected speakers, nested teams and 'society of mind'. The conversation is "
                            "the program."),
-    "llamaindex": ("LlamaIndex", "LlamaIndex is a data framework for retrieval: load documents, build vector, "
+    "05_llamaindex": ("LlamaIndex", "LlamaIndex is a data framework for retrieval: load documents, build vector, "
                                  "summary or SQL indexes, and query them, or give the indexes to an agent as tools."),
-    "anthropic_sdk": ("No framework (Anthropic SDK)", "The same research agent written with only the Anthropic "
+    "06_anthropic_sdk": ("No framework (Anthropic SDK)", "The same research agent written with only the Anthropic "
                                                       "SDK pointed at Ollama, so you can see the agent loop that "
                                                       "frameworks hide."),
-    "protocols": ("Protocols: MCP, A2A, REST", "How agents connect to the outside world: MCP serves tools to any "
+    "07_protocols": ("Protocols: MCP, A2A, REST", "How agents connect to the outside world: MCP serves tools to any "
                                                "agent, A2A lets agents discover and call other agents, and a REST "
                                                "API lets any program call an agent."),
 }
-GUARDRAIL_AGENTS = {"09", "25", "31", "39"}
+GUARDRAIL_AGENTS = {"10", "18", "27", "42"}
 
 
 def parse_index() -> list[dict]:
@@ -76,8 +76,6 @@ def fix_links(md: str, folder: Path, agents_by_folder: dict, here: str) -> str:
         rel = resolved.relative_to(ROOT).as_posix() if resolved.is_relative_to(ROOT) else target
         if rel.rstrip("/") in agents_by_folder:  # link to another agent -> its page
             return f"[{text}]({link(here, page_path(rel.rstrip('/')))})"
-        if rel == "CLAUDE.md":
-            return f"[{text}]({link(here, 'lessons.md')})"
         return f"[{text}]({BLOB}/{rel})"  # any other file -> GitHub
     return re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", repl, md)
 
@@ -100,8 +98,8 @@ def agent_page(agent: dict, agents_by_folder: dict) -> str:
                  f"`GUARDRAIL`, and see the [Guardrails overview]({link(here, 'guardrails.md')}).\n")
     parts = [title, "", meta, body.strip(), "", "## The code", ""]
     py_files = sorted(folder.glob("*.py"), key=lambda p: (p.name not in ("main.py", "server.py", "api.py"), p.name))
-    if agent["path"] in ("protocols/52_notes_mcp_agno", "protocols/53_notes_mcp_langgraph"):
-        py_files.append(ROOT / "protocols" / "notes_mcp_server.py")  # the shared MCP server
+    if agent["path"] in ("07_protocols/54_notes_mcp_agno", "07_protocols/55_notes_mcp_langgraph"):
+        py_files.append(ROOT / "07_protocols" / "notes_mcp_server.py")  # the shared MCP server
     for f in py_files:
         parts.append(code_block(f, f.relative_to(ROOT).as_posix()))
     data = [p for p in sorted(folder.rglob("*")) if p.is_file() and p.suffix not in (".py", ".pyc")
@@ -122,14 +120,14 @@ def framework_page(key: str, agents: list[dict]) -> str:
         tag = " **[Guardrail]**" if a["num"] in GUARDRAIL_AGENTS else ""
         lines.append(f"| {a['num']} | [{a['name']}]({link(f'frameworks/{key}.md', page_path(a['path']))}){tag} | "
                      f"{a['industry']} | {a['desc']} |")
-    if key == "protocols":
-        lines += ["", fix_links((ROOT / "protocols" / "README.md").read_text(encoding="utf-8").split("\n", 1)[1],
-                                ROOT / "protocols", {}, f"frameworks/{key}.md")]
+    if key == "07_protocols":
+        lines += ["", fix_links((ROOT / "07_protocols" / "README.md").read_text(encoding="utf-8").split("\n", 1)[1],
+                                ROOT / "07_protocols", {}, f"frameworks/{key}.md")]
     return "\n".join(lines) + "\n"
 
 
 def index_page(agents: list[dict]) -> str:
-    lines = ["# Agent index", "", "All 58 agents in build order (simple to advanced).", "",
+    lines = ["# Agent index", "", "All 58 agents, numbered in folder order (framework by framework).", "",
              "| # | Agent | Framework | Industry | What it does |", "|---|---|---|---|---|"]
     for a in agents:
         tag = " **[Guardrail]**" if a["num"] in GUARDRAIL_AGENTS else ""
@@ -148,7 +146,7 @@ def shared_code_page() -> str:
 
 def mkdocs_yml(by_fw: dict) -> str:
     nav = ["  - Home: index.md", "  - Getting started: getting-started.md", "  - How to read an agent: how-to-read.md"]
-    for key in ("agno", "langgraph", "crewai", "autogen", "llamaindex", "anthropic_sdk", "protocols"):
+    for key in FRAMEWORKS:  # numbered folder order
         title = FRAMEWORKS[key][0]
         nav.append(f"  - '{title}':")
         nav.append(f"    - Overview: frameworks/{key}.md")
@@ -208,7 +206,7 @@ def main() -> None:
     for f in SRC.glob("*.md"):
         shutil.copy(f, DOCS / f.name)
     (DOCS / "assets").mkdir()
-    shutil.copy(ROOT / "agno" / "01_research_agent" / "result.png", DOCS / "assets" / "agent01_result.png")
+    shutil.copy(ROOT / "01_agno" / "01_research_agent" / "result.png", DOCS / "assets" / "agent01_result.png")
     (DOCS / "agent-index.md").write_text(index_page(agents), encoding="utf-8")
     (DOCS / "shared-code.md").write_text(shared_code_page(), encoding="utf-8")
     (ROOT / "mkdocs.yml").write_text(mkdocs_yml(by_fw), encoding="utf-8")

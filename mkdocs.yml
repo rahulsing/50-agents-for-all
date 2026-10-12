@@ -34,77 +34,77 @@ nav:
   - Getting started: getting-started.md
   - How to read an agent: how-to-read.md
   - 'Agno':
-    - Overview: frameworks/agno.md
-    - '01 Research Agent': agents/agno/01_research_agent.md
-    - '06 YouTube Agent': agents/agno/06_youtube_agent.md
-    - '07 Recipe Creator': agents/agno/07_recipe_creator.md
-    - '12 Finance Agent': agents/agno/12_finance_agent.md
-    - '16 Study Partner': agents/agno/16_study_partner.md
-    - '22 Legal Document Analysis': agents/agno/22_legal_document_analysis.md
-    - '26 Shopping Partner': agents/agno/26_shopping_partner.md
-    - '29 Movie Recommendation': agents/agno/29_movie_recommendation.md
-    - '34 README Generator': agents/agno/34_readme_generator.md
-    - '39 Support Agent': agents/agno/39_support_agent.md
+    - Overview: frameworks/01_agno.md
+    - '01 Research Agent': agents/01_agno/01_research_agent.md
+    - '02 YouTube Agent': agents/01_agno/02_youtube_agent.md
+    - '03 Recipe Creator': agents/01_agno/03_recipe_creator.md
+    - '04 Finance Agent': agents/01_agno/04_finance_agent.md
+    - '05 Study Partner': agents/01_agno/05_study_partner.md
+    - '06 Legal Document Analysis': agents/01_agno/06_legal_document_analysis.md
+    - '07 Shopping Partner': agents/01_agno/07_shopping_partner.md
+    - '08 Movie Recommendation': agents/01_agno/08_movie_recommendation.md
+    - '09 README Generator': agents/01_agno/09_readme_generator.md
+    - '10 Support Agent': agents/01_agno/10_support_agent.md
   - 'LangGraph':
-    - Overview: frameworks/langgraph.md
-    - '02 Agentic RAG': agents/langgraph/02_agentic_rag.md
-    - '08 Reflection Agent': agents/langgraph/08_reflection_agent.md
-    - '13 Corrective RAG': agents/langgraph/13_corrective_rag.md
-    - '17 Self-RAG': agents/langgraph/17_self_rag.md
-    - '21 SQL Agent': agents/langgraph/21_sql_agent.md
-    - '24 Plan-and-Execute': agents/langgraph/24_plan_and_execute.md
-    - '28 Adaptive RAG': agents/langgraph/28_adaptive_rag.md
-    - '31 Supervisor Multi-Agent': agents/langgraph/31_supervisor_multi_agent.md
-    - '35 Reflexion Agent': agents/langgraph/35_reflexion_agent.md
-    - '38 Customer Support': agents/langgraph/38_customer_support.md
-    - '42 Hierarchical Agent Teams': agents/langgraph/42_hierarchical_agent_teams.md
-    - '45 Code Assistant': agents/langgraph/45_code_assistant.md
-    - '47 Multi-Agent Collaboration': agents/langgraph/47_multi_agent_collaboration.md
-    - '49 Information Gathering': agents/langgraph/49_information_gathering.md
-    - '57 Bank Statement Analyst': agents/langgraph/57_bank_statement_analyst.md
+    - Overview: frameworks/02_langgraph.md
+    - '11 Agentic RAG': agents/02_langgraph/11_agentic_rag.md
+    - '12 Reflection Agent': agents/02_langgraph/12_reflection_agent.md
+    - '13 Corrective RAG': agents/02_langgraph/13_corrective_rag.md
+    - '14 Self-RAG': agents/02_langgraph/14_self_rag.md
+    - '15 SQL Agent': agents/02_langgraph/15_sql_agent.md
+    - '16 Plan-and-Execute': agents/02_langgraph/16_plan_and_execute.md
+    - '17 Adaptive RAG': agents/02_langgraph/17_adaptive_rag.md
+    - '18 Supervisor Multi-Agent': agents/02_langgraph/18_supervisor_multi_agent.md
+    - '19 Reflexion Agent': agents/02_langgraph/19_reflexion_agent.md
+    - '20 Customer Support': agents/02_langgraph/20_customer_support.md
+    - '21 Hierarchical Agent Teams': agents/02_langgraph/21_hierarchical_agent_teams.md
+    - '22 Code Assistant': agents/02_langgraph/22_code_assistant.md
+    - '23 Multi-Agent Collaboration': agents/02_langgraph/23_multi_agent_collaboration.md
+    - '24 Information Gathering': agents/02_langgraph/24_information_gathering.md
+    - '25 Bank Statement Analyst': agents/02_langgraph/25_bank_statement_analyst.md
   - 'CrewAI':
-    - Overview: frameworks/crewai.md
-    - '03 Trip Planner': agents/crewai/03_trip_planner.md
-    - '09 Job Posting Generator': agents/crewai/09_job_posting_generator.md
-    - '14 Stock Analysis': agents/crewai/14_stock_analysis.md
-    - '18 Marketing Strategy Generator': agents/crewai/18_marketing_strategy.md
-    - '23 Recruitment Workflow': agents/crewai/23_recruitment_workflow.md
-    - '27 Email Auto Responder': agents/crewai/27_email_auto_responder.md
-    - '32 Meeting Prep': agents/crewai/32_meeting_prep.md
-    - '36 Instagram Post Generator': agents/crewai/36_instagram_post_generator.md
-    - '40 Landing Page Generator': agents/crewai/40_landing_page_generator.md
-    - '43 Lead Score Flow': agents/crewai/43_lead_score_flow.md
-    - '46 Screenplay Writer': agents/crewai/46_screenplay_writer.md
-    - '50 Markdown Validator': agents/crewai/50_markdown_validator.md
+    - Overview: frameworks/03_crewai.md
+    - '26 Trip Planner': agents/03_crewai/26_trip_planner.md
+    - '27 Job Posting Generator': agents/03_crewai/27_job_posting_generator.md
+    - '28 Stock Analysis': agents/03_crewai/28_stock_analysis.md
+    - '29 Marketing Strategy Generator': agents/03_crewai/29_marketing_strategy.md
+    - '30 Recruitment Workflow': agents/03_crewai/30_recruitment_workflow.md
+    - '31 Email Auto Responder': agents/03_crewai/31_email_auto_responder.md
+    - '32 Meeting Prep': agents/03_crewai/32_meeting_prep.md
+    - '33 Instagram Post Generator': agents/03_crewai/33_instagram_post_generator.md
+    - '34 Landing Page Generator': agents/03_crewai/34_landing_page_generator.md
+    - '35 Lead Score Flow': agents/03_crewai/35_lead_score_flow.md
+    - '36 Screenplay Writer': agents/03_crewai/36_screenplay_writer.md
+    - '37 Markdown Validator': agents/03_crewai/37_markdown_validator.md
   - 'AutoGen':
-    - Overview: frameworks/autogen.md
-    - '04 Code Exec Feedback Loop': agents/autogen/04_code_feedback_loop.md
-    - '10 Currency Calculator': agents/autogen/10_currency_calculator.md
-    - '15 Web Search Agent': agents/autogen/15_web_search_agent.md
-    - '19 Group Chat': agents/autogen/19_group_chat.md
-    - '25 Natural Language to SQL': agents/autogen/25_nl_to_sql.md
-    - '33 RAG Group Chat': agents/autogen/33_rag_group_chat.md
-    - '37 Nested Chats': agents/autogen/37_nested_chats.md
-    - '44 Society of Mind': agents/autogen/44_society_of_mind.md
-    - '48 Conversational Chess': agents/autogen/48_conversational_chess.md
-    - '58 Stock Portfolio Watcher': agents/autogen/58_stock_portfolio_watcher.md
+    - Overview: frameworks/04_autogen.md
+    - '38 Code Exec Feedback Loop': agents/04_autogen/38_code_feedback_loop.md
+    - '39 Currency Calculator': agents/04_autogen/39_currency_calculator.md
+    - '40 Web Search Agent': agents/04_autogen/40_web_search_agent.md
+    - '41 Group Chat': agents/04_autogen/41_group_chat.md
+    - '42 Natural Language to SQL': agents/04_autogen/42_nl_to_sql.md
+    - '43 RAG Group Chat': agents/04_autogen/43_rag_group_chat.md
+    - '44 Nested Chats': agents/04_autogen/44_nested_chats.md
+    - '45 Society of Mind': agents/04_autogen/45_society_of_mind.md
+    - '46 Conversational Chess': agents/04_autogen/46_conversational_chess.md
+    - '47 Stock Portfolio Watcher': agents/04_autogen/47_stock_portfolio_watcher.md
   - 'LlamaIndex':
-    - Overview: frameworks/llamaindex.md
-    - '05 Document Q&A': agents/llamaindex/05_document_qa.md
-    - '11 CSV / SQL Query': agents/llamaindex/11_csv_sql_query.md
-    - '20 Multi-Document Agent': agents/llamaindex/20_multi_document_agent.md
-    - '30 Sub-Question Query Engine': agents/llamaindex/30_sub_question_query_engine.md
-    - '41 Report Summarizer': agents/llamaindex/41_report_summarizer.md
+    - Overview: frameworks/05_llamaindex.md
+    - '48 Document Q&A': agents/05_llamaindex/48_document_qa.md
+    - '49 CSV / SQL Query': agents/05_llamaindex/49_csv_sql_query.md
+    - '50 Multi-Document Agent': agents/05_llamaindex/50_multi_document_agent.md
+    - '51 Sub-Question Query Engine': agents/05_llamaindex/51_sub_question_query_engine.md
+    - '52 Report Summarizer': agents/05_llamaindex/52_report_summarizer.md
   - 'No framework (Anthropic SDK)':
-    - Overview: frameworks/anthropic_sdk.md
-    - '51 Research Agent (plain SDK)': agents/anthropic_sdk/51_research_agent.md
+    - Overview: frameworks/06_anthropic_sdk.md
+    - '53 Research Agent (plain SDK)': agents/06_anthropic_sdk/53_research_agent.md
   - 'Protocols: MCP, A2A, REST':
-    - Overview: frameworks/protocols.md
-    - '52 Notes MCP: Agno client': agents/protocols/52_notes_mcp_agno.md
-    - '53 Notes MCP: LangGraph client': agents/protocols/53_notes_mcp_langgraph.md
-    - '54 Research Agent as A2A Server': agents/protocols/54_research_a2a_server.md
-    - '55 Planner as A2A Client': agents/protocols/55_planner_a2a_client.md
-    - '56 Research Agent REST API': agents/protocols/56_research_rest_api.md
+    - Overview: frameworks/07_protocols.md
+    - '54 Notes MCP: Agno client': agents/07_protocols/54_notes_mcp_agno.md
+    - '55 Notes MCP: LangGraph client': agents/07_protocols/55_notes_mcp_langgraph.md
+    - '56 Research Agent as A2A Server': agents/07_protocols/56_research_a2a_server.md
+    - '57 Planner as A2A Client': agents/07_protocols/57_planner_a2a_client.md
+    - '58 Research Agent REST API': agents/07_protocols/58_research_rest_api.md
   - Guardrails: guardrails.md
   - Lessons learned: lessons.md
   - Shared code: shared-code.md

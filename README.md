@@ -15,8 +15,8 @@ Learn how AI agents work by reading and running **58 small, complete examples** 
 ollama pull qwen2.5:7b-instruct
 git clone https://github.com/rahulsing/50-agents-for-all.git && cd 50-agents-for-all
 uv venv .venv-agno --python 3.12
-uv pip install --python .venv-agno/bin/python -r agno/01_research_agent/requirements.txt   # Windows: .venv-agno\Scripts\python.exe
-.venv-agno/bin/python agno/01_research_agent/main.py "What is retrieval augmented generation?"
+uv pip install --python .venv-agno/bin/python -r 01_agno/01_research_agent/requirements.txt   # Windows: .venv-agno\Scripts\python.exe
+.venv-agno/bin/python 01_agno/01_research_agent/main.py "What is retrieval augmented generation?"
 ```
 
 Full setup: [Getting started](https://rahulsing.github.io/50-agents-for-all/getting-started/).
@@ -25,9 +25,9 @@ Full setup: [Getting started](https://rahulsing.github.io/50-agents-for-all/gett
 
 | Path | Contents |
 |------|----------|
-| `agno/`, `langgraph/`, `crewai/`, `autogen/`, `llamaindex/` | One folder per agent: `main.py`, `README.md`, `requirements.txt`, sample data |
-| `anthropic_sdk/` | Agent 51: the agent loop with no framework |
-| `protocols/` | Agents 52-56: MCP, A2A and REST API |
+| `01_agno/` (01-10), `02_langgraph/` (11-25), `03_crewai/` (26-37), `04_autogen/` (38-47), `05_llamaindex/` (48-52) | One folder per agent: `main.py`, `README.md`, `requirements.txt`, sample data |
+| `06_anthropic_sdk/` | Agent 53: the agent loop with no framework |
+| `07_protocols/` | Agents 54-58: MCP, A2A and REST API |
 | `common/` | Shared helpers: model names (`llm.py`), web search and calculator tools, per-framework setup |
 | [`INDEX.md`](INDEX.md) | All agents with links, by framework and by industry, plus where to find the guardrails |
 | `site_src/`, `scripts/build_docs.py` | Source of the tutorial website |

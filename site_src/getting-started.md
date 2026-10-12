@@ -9,7 +9,7 @@ Install Ollama from [ollama.com](https://ollama.com), then pull the models the a
 ```bash
 ollama pull qwen2.5:7b-instruct        # main model for all agents (good at tool calling)
 ollama pull qwen3-embedding            # embeddings for the RAG agents
-ollama pull qwen3-coder:30b            # optional: only agents 04 and 45 (code generation)
+ollama pull qwen3-coder:30b            # optional: only agents 38 and 22 (code generation)
 ollama pull qwen2.5:14b-instruct       # optional: a stronger model to compare with
 ```
 
@@ -37,14 +37,14 @@ The frameworks need different versions of the same libraries, so each gets its o
 
     ```powershell
     uv venv .venv-agno --python 3.12
-    uv pip install --python .venv-agno\Scripts\python.exe -r agno\01_research_agent\requirements.txt
+    uv pip install --python .venv-agno\Scripts\python.exe -r 01_agno\01_research_agent\requirements.txt
     ```
 
 === "macOS / Linux"
 
     ```bash
     uv venv .venv-agno --python 3.12
-    uv pip install --python .venv-agno/bin/python -r agno/01_research_agent/requirements.txt
+    uv pip install --python .venv-agno/bin/python -r 01_agno/01_research_agent/requirements.txt
     ```
 
 Repeat for the frameworks you want: `.venv-langgraph`, `.venv-crewai`, `.venv-autogen`, `.venv-llamaindex` (use any agent's `requirements.txt` in that framework's folder; all agents of a framework share one environment). The protocol extras use the Agno or LangGraph environment, as their pages say.
@@ -54,13 +54,13 @@ Repeat for the frameworks you want: `.venv-langgraph`, `.venv-crewai`, `.venv-au
 === "Windows"
 
     ```powershell
-    .venv-agno\Scripts\python.exe agno\01_research_agent\main.py "What is retrieval augmented generation?"
+    .venv-agno\Scripts\python.exe 01_agno\01_research_agent\main.py "What is retrieval augmented generation?"
     ```
 
 === "macOS / Linux"
 
     ```bash
-    .venv-agno/bin/python agno/01_research_agent/main.py "What is retrieval augmented generation?"
+    .venv-agno/bin/python 01_agno/01_research_agent/main.py "What is retrieval augmented generation?"
     ```
 
 You should see the tool calls (web searches) and then a 5-bullet answer with sources.
@@ -72,13 +72,13 @@ All agents read their model names from one file, `common/llm.py`, and each can b
 | Variable | Default | Used for |
 |----------|---------|----------|
 | `AGENT_MODEL` | `qwen2.5:7b-instruct` | almost every agent |
-| `CODER_MODEL` | `qwen3-coder:30b` | code-writing agents (04, 45) |
+| `CODER_MODEL` | `qwen3-coder:30b` | code-writing agents (22, 38) |
 | `EMBED_MODEL` | `qwen3-embedding:latest` | RAG agents |
 | `OLLAMA_URL` | `http://localhost:11434` | where Ollama runs |
 
 ```bash
 # example: try a bigger model with any agent
-AGENT_MODEL=qwen2.5:14b-instruct python agno/12_finance_agent/main.py "Compare AAPL and MSFT"
+AGENT_MODEL=qwen2.5:14b-instruct python 01_agno/04_finance_agent/main.py "Compare AAPL and MSFT"
 ```
 
 ## Troubleshooting

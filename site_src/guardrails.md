@@ -8,13 +8,13 @@ In every agent's code, search for `GUARDRAIL` to jump to the relevant lines.
 
 | Agent | Framework feature | What it guards |
 |-------|-------------------|----------------|
-| [39 Support Agent](agents/agno/39_support_agent.md) | **Agno** `pre_hooks` with `PromptInjectionGuardrail` and `PIIDetectionGuardrail`, plus a custom `post_hooks` check | Blocks prompt-injection messages and card/IBAN/SSN numbers *before* the model is called; blocks replies that contain card-like numbers or leak instructions |
-| [09 Job Posting Generator](agents/crewai/09_job_posting_generator.md) | **CrewAI** `Task(guardrails=[function, "plain-English rule"], guardrail_max_retries=3)` | Length, biased wording, required sections and invented salaries (code); discriminatory requirements (checked by an LLM). Failures go back to the agent for a rewrite |
-| [31 Supervisor Multi-Agent](agents/langgraph/31_supervisor_multi_agent.md) | **LangChain middleware** `PIIMiddleware`, `ModelCallLimitMiddleware`, `ToolCallLimitMiddleware`, plus a PII node at the graph's entry | Redacts emails and masks card numbers for the whole team; caps model and tool calls per worker |
+| [10 Support Agent](agents/01_agno/10_support_agent.md) | **Agno** `pre_hooks` with `PromptInjectionGuardrail` and `PIIDetectionGuardrail`, plus a custom `post_hooks` check | Blocks prompt-injection messages and card/IBAN/SSN numbers *before* the model is called; blocks replies that contain card-like numbers or leak instructions |
+| [27 Job Posting Generator](agents/03_crewai/27_job_posting_generator.md) | **CrewAI** `Task(guardrails=[function, "plain-English rule"], guardrail_max_retries=3)` | Length, biased wording, required sections and invented salaries (code); discriminatory requirements (checked by an LLM). Failures go back to the agent for a rewrite |
+| [18 Supervisor Multi-Agent](agents/02_langgraph/18_supervisor_multi_agent.md) | **LangChain middleware** `PIIMiddleware`, `ModelCallLimitMiddleware`, `ToolCallLimitMiddleware`, plus a PII node at the graph's entry | Redacts emails and masks card numbers for the whole team; caps model and tool calls per worker |
 
 ### What each looks like in code
 
-=== "Agno (agent 39)"
+=== "Agno (agent 10)"
 
     ```python
     agent = Agent(
@@ -27,7 +27,7 @@ In every agent's code, search for `GUARDRAIL` to jump to the relevant lines.
         print("Blocked:", run.content)
     ```
 
-=== "CrewAI (agent 09)"
+=== "CrewAI (agent 27)"
 
     ```python
     def posting_rules(result: TaskOutput) -> tuple[bool, Any]:
@@ -40,7 +40,7 @@ In every agent's code, search for `GUARDRAIL` to jump to the relevant lines.
                   guardrail_max_retries=3)
     ```
 
-=== "LangChain / LangGraph (agent 31)"
+=== "LangChain / LangGraph (agent 18)"
 
     ```python
     researcher = create_agent(llm, [web_search], middleware=[
@@ -55,13 +55,13 @@ In every agent's code, search for `GUARDRAIL` to jump to the relevant lines.
 
 | Agent | Guardrail |
 |-------|-----------|
-| [21 SQL Agent](agents/langgraph/21_sql_agent.md), [25 NL to SQL](agents/autogen/25_nl_to_sql.md) | The database is opened read-only and only SELECT queries are accepted |
-| [25 NL to SQL](agents/autogen/25_nl_to_sql.md) | `VerifiedApproval`: an approval only counts if its numbers appear together in a real query result row |
-| [31 Supervisor](agents/langgraph/31_supervisor_multi_agent.md), [47 Collaboration](agents/langgraph/47_multi_agent_collaboration.md) | Workflow order enforced in the router: the analyst must check the numbers before the run can finish |
-| [39 Support Agent](agents/agno/39_support_agent.md) | The model only decides to escalate; code opens the ticket, and only with a real email from the message |
-| [23 Recruitment](agents/crewai/23_recruitment_workflow.md), [43 Lead Score](agents/crewai/43_lead_score_flow.md) | Scores are computed in code from the model's yes/no judgements |
-| [48 Chess](agents/autogen/48_conversational_chess.md) | A referee in code validates every proposed move |
-| [04 Code Loop](agents/autogen/04_code_feedback_loop.md), [45 Code Assistant](agents/langgraph/45_code_assistant.md) | Model-written code runs in a separate process with a timeout |
+| [15 SQL Agent](agents/02_langgraph/15_sql_agent.md), [42 NL to SQL](agents/04_autogen/42_nl_to_sql.md) | The database is opened read-only and only SELECT queries are accepted |
+| [42 NL to SQL](agents/04_autogen/42_nl_to_sql.md) | `VerifiedApproval`: an approval only counts if its numbers appear together in a real query result row |
+| [18 Supervisor](agents/02_langgraph/18_supervisor_multi_agent.md), [23 Collaboration](agents/02_langgraph/23_multi_agent_collaboration.md) | Workflow order enforced in the router: the analyst must check the numbers before the run can finish |
+| [10 Support Agent](agents/01_agno/10_support_agent.md) | The model only decides to escalate; code opens the ticket, and only with a real email from the message |
+| [30 Recruitment](agents/03_crewai/30_recruitment_workflow.md), [35 Lead Score](agents/03_crewai/35_lead_score_flow.md) | Scores are computed in code from the model's yes/no judgements |
+| [46 Chess](agents/04_autogen/46_conversational_chess.md) | A referee in code validates every proposed move |
+| [38 Code Loop](agents/04_autogen/38_code_feedback_loop.md), [22 Code Assistant](agents/02_langgraph/22_code_assistant.md) | Model-written code runs in a separate process with a timeout |
 
 ## What testing taught about guardrails
 

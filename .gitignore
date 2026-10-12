@@ -10,12 +10,12 @@ site/
 # Runtime data created when agents run (recreated automatically)
 *.db
 lancedb/
-protocols/notes.json
-agno/39_support_agent/tickets.json
-autogen/04_code_feedback_loop/workspace/
-crewai/*/output/
-crewai/27_email_auto_responder/drafts/
-langgraph/57_bank_statement_analyst/sample_statement.csv
+07_protocols/notes.json
+01_agno/10_support_agent/tickets.json
+04_autogen/38_code_feedback_loop/workspace/
+03_crewai/*/output/
+03_crewai/31_email_auto_responder/drafts/
+02_langgraph/25_bank_statement_analyst/sample_statement.csv
 
 # Editors / OS
 .vscode/
@@ -23,3 +23,8 @@ langgraph/57_bank_statement_analyst/sample_statement.csv
 .DS_Store
 Thumbs.db
 .playwright-mcp/
+
+# Claude Code files (local only, never pushed)
+CLAUDE.md
+CLAUDE.local.md
+.claude/

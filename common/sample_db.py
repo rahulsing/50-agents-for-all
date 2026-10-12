@@ -1,4 +1,4 @@
-"""Creates a small sample shop database (SQLite) used by the SQL agents (21, 25)."""
+"""Creates a small sample shop database (SQLite) used by the SQL agents (15, 42)."""
 import random
 import sqlite3
 from datetime import date, timedelta

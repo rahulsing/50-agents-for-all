@@ -41,13 +41,13 @@ Agent 01 asks a question, searches the web, and answers with sources. Here is it
 
 | Step | Read these | You will understand |
 |------|------------|---------------------|
-| 1. One agent, one tool | [01 Research Agent](agents/agno/01_research_agent.md), [51 same agent with the plain Anthropic SDK](agents/anthropic_sdk/51_research_agent.md) | What "tool calling" is, and the loop every framework hides from you |
-| 2. Your own documents (RAG) | [05 Document Q&A](agents/llamaindex/05_document_qa.md), [02 Agentic RAG](agents/langgraph/02_agentic_rag.md), [13 Corrective RAG](agents/langgraph/13_corrective_rag.md) | Retrieval, embeddings, grading retrieved text |
-| 3. Teams of agents | [03 Trip Planner](agents/crewai/03_trip_planner.md), [19 Group Chat](agents/autogen/19_group_chat.md), [31 Supervisor](agents/langgraph/31_supervisor_multi_agent.md) | Roles, hand-offs, supervisors |
-| 4. Structured output | [07 Recipe Creator](agents/agno/07_recipe_creator.md), [18 Marketing Strategy](agents/crewai/18_marketing_strategy.md) | Getting validated objects instead of free text |
-| 5. Self-improvement | [08 Reflection](agents/langgraph/08_reflection_agent.md), [17 Self-RAG](agents/langgraph/17_self_rag.md), [35 Reflexion](agents/langgraph/35_reflexion_agent.md) | Agents that critique and fix their own work |
-| 6. Humans and safety | [38 Customer Support](agents/langgraph/38_customer_support.md), [Guardrails](guardrails.md) | Human approval, guardrails, keeping actions in code |
-| 7. Connecting agents | [52 MCP](agents/protocols/52_notes_mcp_agno.md), [54 A2A server](agents/protocols/54_research_a2a_server.md), [56 REST API](agents/protocols/56_research_rest_api.md) | Standard protocols for tools, agents and apps |
+| 1. One agent, one tool | [01 Research Agent](agents/01_agno/01_research_agent.md), [53 same agent with the plain Anthropic SDK](agents/06_anthropic_sdk/53_research_agent.md) | What "tool calling" is, and the loop every framework hides from you |
+| 2. Your own documents (RAG) | [48 Document Q&A](agents/05_llamaindex/48_document_qa.md), [11 Agentic RAG](agents/02_langgraph/11_agentic_rag.md), [13 Corrective RAG](agents/02_langgraph/13_corrective_rag.md) | Retrieval, embeddings, grading retrieved text |
+| 3. Teams of agents | [26 Trip Planner](agents/03_crewai/26_trip_planner.md), [41 Group Chat](agents/04_autogen/41_group_chat.md), [18 Supervisor](agents/02_langgraph/18_supervisor_multi_agent.md) | Roles, hand-offs, supervisors |
+| 4. Structured output | [03 Recipe Creator](agents/01_agno/03_recipe_creator.md), [29 Marketing Strategy](agents/03_crewai/29_marketing_strategy.md) | Getting validated objects instead of free text |
+| 5. Self-improvement | [12 Reflection](agents/02_langgraph/12_reflection_agent.md), [14 Self-RAG](agents/02_langgraph/14_self_rag.md), [19 Reflexion](agents/02_langgraph/19_reflexion_agent.md) | Agents that critique and fix their own work |
+| 6. Humans and safety | [20 Customer Support](agents/02_langgraph/20_customer_support.md), [Guardrails](guardrails.md) | Human approval, guardrails, keeping actions in code |
+| 7. Connecting agents | [54 MCP](agents/07_protocols/54_notes_mcp_agno.md), [56 A2A server](agents/07_protocols/56_research_a2a_server.md), [58 REST API](agents/07_protocols/58_research_rest_api.md) | Standard protocols for tools, agents and apps |
 
 !!! note "About the code"
     The agent ideas come from the community list [500 AI Agents Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects). All code here is original, written for local models. Sample data (companies, people, orders, contracts) is fictional.

@@ -17,13 +17,13 @@ Every agent page follows the same structure, taken from the README in the agent'
 
 | Framework | Mental model | Start with |
 |-----------|--------------|------------|
-| **Agno** | One agent = model + tools + instructions; batteries included (memory, knowledge, guardrails) | [01 Research Agent](agents/agno/01_research_agent.md) |
-| **LangGraph** | You draw a graph of steps (nodes) and decisions (edges) that share a state | [02 Agentic RAG](agents/langgraph/02_agentic_rag.md) |
-| **CrewAI** | A crew of role-played agents, each given tasks; or event-driven Flows | [03 Trip Planner](agents/crewai/03_trip_planner.md) |
-| **AutoGen** | Agents that talk to each other in a team; the conversation is the program | [04 Code Feedback Loop](agents/autogen/04_code_feedback_loop.md) |
-| **LlamaIndex** | A data framework: load documents, build indexes, query them | [05 Document Q&A](agents/llamaindex/05_document_qa.md) |
+| **Agno** | One agent = model + tools + instructions; batteries included (memory, knowledge, guardrails) | [01 Research Agent](agents/01_agno/01_research_agent.md) |
+| **LangGraph** | You draw a graph of steps (nodes) and decisions (edges) that share a state | [11 Agentic RAG](agents/02_langgraph/11_agentic_rag.md) |
+| **CrewAI** | A crew of role-played agents, each given tasks; or event-driven Flows | [26 Trip Planner](agents/03_crewai/26_trip_planner.md) |
+| **AutoGen** | Agents that talk to each other in a team; the conversation is the program | [38 Code Feedback Loop](agents/04_autogen/38_code_feedback_loop.md) |
+| **LlamaIndex** | A data framework: load documents, build indexes, query them | [48 Document Q&A](agents/05_llamaindex/48_document_qa.md) |
 
-Want to see what all of them hide? Read [51: the same research agent with no framework at all](agents/anthropic_sdk/51_research_agent.md). The whole "agent" is a 20-line loop.
+Want to see what all of them hide? Read [53: the same research agent with no framework at all](agents/06_anthropic_sdk/53_research_agent.md). The whole "agent" is a 20-line loop.
 
 ## Shared code
 
@@ -33,4 +33,4 @@ A few helpers are shared by many agents, in the `common/` folder: model names, a
 
 - Read the **Known limits** first. They show where small models fail and which code patterns fixed it.
 - Run the agent, then try one item from **Things to try**. Changing one line teaches more than reading ten.
-- Compare the same idea in two frameworks, for example SQL agents [21 (LangGraph)](agents/langgraph/21_sql_agent.md) and [25 (AutoGen)](agents/autogen/25_nl_to_sql.md), or research agents [01](agents/agno/01_research_agent.md), [15](agents/autogen/15_web_search_agent.md) and [51](agents/anthropic_sdk/51_research_agent.md).
+- Compare the same idea in two frameworks, for example SQL agents [15 (LangGraph)](agents/02_langgraph/15_sql_agent.md) and [42 (AutoGen)](agents/04_autogen/42_nl_to_sql.md), or research agents [01](agents/01_agno/01_research_agent.md), [40](agents/04_autogen/40_web_search_agent.md) and [53](agents/06_anthropic_sdk/53_research_agent.md).
