@@ -29,263 +29,263 @@
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/01_research_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/01_research_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/06_youtube_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/02_youtube_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/07_recipe_creator/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/03_recipe_creator/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/12_finance_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/04_finance_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/16_study_partner/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/05_study_partner/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/22_legal_document_analysis/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/06_legal_document_analysis/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/26_shopping_partner/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/07_shopping_partner/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/29_movie_recommendation/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/08_movie_recommendation/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/34_readme_generator/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/09_readme_generator/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/agno/39_support_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/01_agno/10_support_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/anthropic_sdk/51_research_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/11_agentic_rag/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/04_code_feedback_loop/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/12_reflection_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/10_currency_calculator/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/13_corrective_rag/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/15_web_search_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/14_self_rag/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/19_group_chat/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/15_sql_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/25_nl_to_sql/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/16_plan_and_execute/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/33_rag_group_chat/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/17_adaptive_rag/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/37_nested_chats/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/18_supervisor_multi_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/44_society_of_mind/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/19_reflexion_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/48_conversational_chess/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/20_customer_support/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/autogen/58_stock_portfolio_watcher/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/21_hierarchical_agent_teams/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/03_trip_planner/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/22_code_assistant/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/09_job_posting_generator/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/23_multi_agent_collaboration/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/14_stock_analysis/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/24_information_gathering/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/18_marketing_strategy/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/02_langgraph/25_bank_statement_analyst/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/23_recruitment_workflow/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/26_trip_planner/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/27_email_auto_responder/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/27_job_posting_generator/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/32_meeting_prep/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/28_stock_analysis/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/36_instagram_post_generator/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/29_marketing_strategy/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/40_landing_page_generator/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/30_recruitment_workflow/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/43_lead_score_flow/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/31_email_auto_responder/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/46_screenplay_writer/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/32_meeting_prep/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/crewai/50_markdown_validator/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/33_instagram_post_generator/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/02_agentic_rag/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/34_landing_page_generator/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/08_reflection_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/35_lead_score_flow/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/13_corrective_rag/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/36_screenplay_writer/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/17_self_rag/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/03_crewai/37_markdown_validator/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/21_sql_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/38_code_feedback_loop/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/24_plan_and_execute/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/39_currency_calculator/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/28_adaptive_rag/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/40_web_search_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/31_supervisor_multi_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/41_group_chat/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/35_reflexion_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/42_nl_to_sql/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/38_customer_support/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/43_rag_group_chat/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/42_hierarchical_agent_teams/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/44_nested_chats/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/45_code_assistant/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/45_society_of_mind/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/47_multi_agent_collaboration/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/46_conversational_chess/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/49_information_gathering/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/04_autogen/47_stock_portfolio_watcher/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/langgraph/57_bank_statement_analyst/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/05_llamaindex/48_document_qa/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/llamaindex/05_document_qa/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/05_llamaindex/49_csv_sql_query/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/llamaindex/11_csv_sql_query/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/05_llamaindex/50_multi_document_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/llamaindex/20_multi_document_agent/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/05_llamaindex/51_sub_question_query_engine/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/llamaindex/30_sub_question_query_engine/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/05_llamaindex/52_report_summarizer/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/llamaindex/41_report_summarizer/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/06_anthropic_sdk/53_research_agent/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/protocols/52_notes_mcp_agno/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/07_protocols/54_notes_mcp_agno/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/protocols/53_notes_mcp_langgraph/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/07_protocols/55_notes_mcp_langgraph/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/protocols/54_research_a2a_server/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/07_protocols/56_research_a2a_server/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/protocols/55_planner_a2a_client/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/07_protocols/57_planner_a2a_client/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/agents/protocols/56_research_rest_api/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/agents/07_protocols/58_research_rest_api/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/agno/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/01_agno/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/anthropic_sdk/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/02_langgraph/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/autogen/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/03_crewai/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/crewai/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/04_autogen/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/langgraph/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/05_llamaindex/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/llamaindex/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/06_anthropic_sdk/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
     <url>
-         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/protocols/</loc>
+         <loc>https://rahulsing.github.io/50-agents-for-all/frameworks/07_protocols/</loc>
          <lastmod>2026-10-12</lastmod>
     </url>
 </urlset>
