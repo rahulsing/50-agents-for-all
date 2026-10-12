@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# Generated website (built from the agent folders by scripts/build_docs.py)
+docs/
+site/
+
+# Runtime data created when agents run (recreated automatically)
+*.db
+lancedb/
+protocols/notes.json
+agno/39_support_agent/tickets.json
+autogen/04_code_feedback_loop/workspace/
+crewai/*/output/
+crewai/27_email_auto_responder/drafts/
+langgraph/57_bank_statement_analyst/sample_statement.csv
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.playwright-mcp/

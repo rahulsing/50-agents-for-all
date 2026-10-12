@@ -1,0 +1,5 @@
+Chloe Martin (fictional candidate)
+Analytics Engineer, ShopNow (e-commerce), 2020-2026: designed dbt models and data pipelines; built Tableau dashboards; heavy SQL and Python; mentored 2 junior analysts.
+Skills: SQL, Python, dbt, Tableau, Airflow, Snowflake.
+Education: MSc Data Science.
+Note: looking for a hybrid role in London.

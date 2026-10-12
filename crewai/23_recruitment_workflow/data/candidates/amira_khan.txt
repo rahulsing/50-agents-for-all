@@ -1,0 +1,5 @@
+Amira Khan (fictional candidate)
+Data Analyst, Northwind Retail, 2023-2026: built Power BI dashboards for 40 stores; wrote SQL for weekly sales reports; automated reporting with Python (pandas), saving 6 hours a week; presented results to regional managers.
+Junior Analyst, BrightBank, 2022-2023: Excel and SQL reporting.
+Skills: SQL, Python, Power BI, dbt (basic), Excel.
+Education: BSc Mathematics.

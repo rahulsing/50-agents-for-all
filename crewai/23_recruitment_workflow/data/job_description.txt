@@ -1,0 +1,6 @@
+Role: Data Analyst (sample data)
+Location: Remote within the UK
+
+We need a data analyst to build dashboards and analyse sales data.
+Must have: SQL, Python or R, a BI tool (Power BI or Tableau), 2+ years of analytics experience.
+Nice to have: dbt, experience in retail or e-commerce, presenting to non-technical stakeholders.

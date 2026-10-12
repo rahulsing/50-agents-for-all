@@ -1,0 +1,4 @@
+From: ops@bigclient.example
+Subject: URGENT - app down for all our staff
+
+None of our 200 users can log in since 9am. This is blocking our whole business. Please call me now. - Dana, IT Manager

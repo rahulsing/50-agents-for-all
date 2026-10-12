@@ -1,0 +1,4 @@
+From: winner-notice@prize-claims.example
+Subject: You WON 5,000,000 USD!!!
+
+Congratulations! Send your bank details and a 50 USD processing fee to claim your prize today.

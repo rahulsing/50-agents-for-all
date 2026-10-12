@@ -1,0 +1,11 @@
+[
+  {"id": "H1", "category": "headphones", "name": "QuietWave 700", "price": 299, "rating": 4.6, "features": ["noise cancelling", "30h battery", "bluetooth"]},
+  {"id": "H2", "category": "headphones", "name": "BassBuds Pro", "price": 129, "rating": 4.2, "features": ["in-ear", "noise cancelling", "8h battery", "water resistant"]},
+  {"id": "H3", "category": "headphones", "name": "StudioLine X", "price": 179, "rating": 4.4, "features": ["wired", "studio monitoring", "detachable cable"]},
+  {"id": "H4", "category": "headphones", "name": "RunFit Air", "price": 79, "rating": 3.9, "features": ["in-ear", "water resistant", "6h battery", "bluetooth"]},
+  {"id": "L1", "category": "laptop", "name": "Aero 14", "price": 1099, "rating": 4.5, "features": ["14 inch", "16GB RAM", "1.2kg", "18h battery"]},
+  {"id": "L2", "category": "laptop", "name": "WorkMate 15", "price": 749, "rating": 4.0, "features": ["15.6 inch", "16GB RAM", "1.8kg", "10h battery"]},
+  {"id": "L3", "category": "laptop", "name": "Creator 16", "price": 1899, "rating": 4.7, "features": ["16 inch", "32GB RAM", "dedicated GPU", "2.1kg"]},
+  {"id": "K1", "category": "kettle", "name": "BoilFast 1.7", "price": 39, "rating": 4.3, "features": ["1.7L", "auto shut-off", "3kW"]},
+  {"id": "K2", "category": "kettle", "name": "TempSet Glass", "price": 69, "rating": 4.6, "features": ["1.5L", "temperature control", "keep warm"]}
+]
